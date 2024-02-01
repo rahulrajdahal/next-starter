@@ -36,7 +36,7 @@ npm run dev
 
 **OR**
 
-**3. Run Production server**
+**Run Production server**
 
 ```sh
 npm run start
