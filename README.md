@@ -1,22 +1,22 @@
 # [Next Starter](https://github.com/rahulrajdahal/next-starter). Starter For Next App Router
 
-### Installation
+## 🏗 Installation
 
-**1. create next app**
+### 1. create next app
 
 ```sh
 npx create-next-app [project-name] -e https://github.com/rahulrajdahal/next-starter
 ```
 
-**2. Install Dependencies**
+### 2. Install Dependencies
 
-**npm**
+#### npm
 
 ```sh
 cd [project-name] && npm install
 ```
 
-**3. Connect to Database**
+### 💾 Connect to Database
 
 // schema.prisma
 
@@ -24,19 +24,19 @@ cd [project-name] && npm install
 provider = "prisma-database-provider"
 ```
 
-**4. Update env**
+### 4. Update env
 
 update the .env.example file to .env and append key value pairs.
 
-**5. Run development server**
+### 5. Run development server
 
 ```sh
 npm run dev
 ```
 
-**OR**
+#### OR
 
-**Run Production server**
+### Run Production server
 
 ```sh
 npm run start
@@ -70,10 +70,10 @@ Inside of project [Next Starter](https://github.com/rahulrajdahal/next-starter),
 
 All commands are run from the root of the project, from a terminal:
 
-| Command         | Action                                       |
-| :-------------- | :------------------------------------------- |
+| Command         | Action                                        |
+| :-------------- | :-------------------------------------------- |
 | `npm install`   | Installs dependencies.                        |
 | `npm run dev`   | Starts local dev server at `localhost:3000`.  |
 | `npm run build` | Build your production site to `./next/`.      |
 | `npm run start` | Preview your build locally, before deploying. |
-| `npm run lint`  | Check all linting errors. |
+| `npm run lint`  | Check all linting errors.                     |
