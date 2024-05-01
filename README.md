@@ -21,7 +21,7 @@ cd [project-name] && npm install
 // schema.prisma
 
 ```sh
-provider = "prisma-database-provider"
+provider = "prisma-database-provider" // default postgres
 ```
 
 ### 4. Update env
